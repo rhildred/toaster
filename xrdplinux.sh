@@ -24,3 +24,4 @@ sudo adduser $user_name
 sudo usermod -aG sudo $user_name
 sudo su - $user_name -c "mkdir ~/Documents"
 sudo su - $user_name -c "mkdir ~/Documents/projects"
+sudo timedatectl set-timezone America/Toronto
